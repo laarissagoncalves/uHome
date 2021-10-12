@@ -4,6 +4,7 @@
 Página inicial de uma construtora civil. 
 
 Utilizando bootstrap 5, além css 3 e html 5.
+Modo "mobile first".
 
 ![image](https://user-images.githubusercontent.com/86576676/136894872-6de813bb-417d-4be9-8955-d248e63f5c90.png)
 ![image](https://user-images.githubusercontent.com/86576676/136895001-07745a72-6f91-4e2b-b5bd-fcf588db93e0.png)
