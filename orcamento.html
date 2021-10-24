@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--CSS Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!--JavaScript Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!--Icones Bootstrap-->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <!--CSS projeto-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--Icone da página-->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <title>uHome</title>
+</head>
+<body>
+  <!--Navbar-->
+  <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+    <div class="container py-3">
+      <a href="#" class="navbar-brand primary-color">
+        <img src="./img/icon4.png" alt="ícone logo da empresa" width="80px">
+        <span>uHome</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items" aria-controls="navbar-items" aria-expanded="false" aria-label="toggle navigation">
+        <i class="bi bi-list"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbar-items">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link primary-color">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link primary-color">Projetos</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link primary-color">Imoveis</a>
+          </li>
+          <li class="nav-item">
+            <a href="orcamento.html" class="nav-link primary-color active" aria-current="page">Orçamento</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--Formulário-->
+  <form class="container primary-color form-contact" id="form-container">
+      <h2 class="title">Orçamento</h2>
+      <p class="subtitle secondary-color">Faça o seu orçamento com a gente!</p>
+        <div class="mb-3 col-12 col-md-6">
+        <label>Nome Completo:</label>
+        <input type="text" class="form-control bg-secondary-color" placeholder="Seu Nome Completo">
+    </div>
+    <div class="mb-3 col-12 col-md-6">
+        <label>Telefone:</label>
+        <input type="tel" class="form-control bg-secondary-color" placeholder="(xx)xxxxx-xxxx">
+    </div>
+    <div class="mb-3 col-12 col-md-6">
+        <label>E-mail:</label>
+        <input type="email" class="form-control bg-secondary-color" placeholder="seuemail@email.com.br">
+    </div>
+    <div class="mb-3 col-12 col-md-6" id="forms-btn">
+        <label for="comment">Conte-nos um pouco a sua ideia:</label>
+        <textarea class="form-control bg-secondary-color" rows="5" id="comment" name="text"></textarea>
+        <button class="btn btn-dark" type="submit">Enviar</button>
+    </div>
+  </form>
+  <!--Footer-->
+  <footer class="container-fluid bg-dark-color" id="footer">
+    <div class="container">
+      <div class="row">
+        <!--Footer top-->
+        <div class="col-12" id="footer-top">
+          <div class="row justify-content-between">
+            <div class="col-2"><h2>uHome</h2></div>
+            <div class="col-6" id="social-icons">
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-instagram"></i>
+              <i class="bi bi-youtube"></i>
+              <i class="bi bi-twitter"></i>
+            </div>
+          </div>
+        </div>
+        <!--Footer datails-->
+        <div class="col-12" id="footer-details">
+          <div class="row">
+            <div class="col-12 col-md-4" id="news-container">
+              <h4>Receba as novidades</h4>
+              <p class="secondary-color">Inscreva-se para receber em primeira mão!</p>
+              <form>
+                <div class="mb-3">
+                  <input type="email" class="form-control" placeholder="uhome@email.com.br">
+                </div>
+                <button class="btn btn-dark" type="submit">Inscrever</button>
+              </form>
+            </div>
+            <div class="col-12 col-md-4" id="contact-container">
+              <h4>Formas de Contato</h4>
+              <p class="secondary-color">(19)3496-4781</p>
+              <p class="secondary-color">contato@uhome.com</p>
+            </div>
+            <div class="col-12 col-md-4" id="links-container">
+              <div class="row">
+                <h4>Você pode estar procurando por:</h4>
+                <div class="col-6">
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="secondary-color">Projetos</a></li>
+                    <li><a href="#" class="secondary-color">Imóveis</a></li>
+                    <li><a href="#" class="secondary-color">Decorações</a></li>
+                  </ul>
+                </div>
+                <div class="col-6">
+                  <ul class="list-unstyled">
+                    <li><a href="#" class="secondary-color">Orçamento</a></li>
+                    <li><a href="#" class="secondary-color">Trabalhe conosco</a></li>
+                    <li><a href="#" class="secondary-color">Contato</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Footer bottom-->
+        <div class="col-12" id="footer-bottom">
+          <div class="row justify-content-between">
+            <div class="col-12 col-md-3">
+              <p class="secondary-color">Realizamos o seu sonho <i class="bi bi-heart"></i></p>
+            </div>
+            <div class="col-12 col-md-3">
+              <p class="secondary-color">uHome &copy; 2021 - Larissa Gonçalves.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
