@@ -5,7 +5,7 @@ Página inicial de uma construtora civil.
 
 https://laarissagoncalves.github.io/uHome/
 
-Utilizando bootstrap 5, além css 3 e html 5.
+Utilizando bootstrap 5, css 3 e html 5.
 Modo "mobile first".
 
 ![image](https://user-images.githubusercontent.com/86576676/136894872-6de813bb-417d-4be9-8955-d248e63f5c90.png)
